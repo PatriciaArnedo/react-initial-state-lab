@@ -10,7 +10,7 @@ class Bomb extends React.Component {
 
     checkIfZero = () => {
         if(this.state.secondsLeft === 0){
-            return "BOOM!"
+            return "Boom!"
         } else {
             return `${this.state.secondsLeft} seconds left before I go boom!`
         }
